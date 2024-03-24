@@ -1,8 +1,11 @@
 # Geeleed Hotel
 
+- [Frontend repo](https://github.com/Geeleed/geeleed-hotel)
+- [Backend repo](https://github.com/Geeleed/geeleed-hotel-backend)
+
 # Backend
 
-ตัวอย่างระบบจัดการเว็บไซต์ backend ของเว็บไซต์จองห้องพักโรงแรม พัฒนาด้วย node.js (โปรเจ็กนี้ทำ frontend แยกไว้ที่ [frontend repository](https://)) ใช้บริการ payment gateway ด้วย stripe และใช้ฐานข้อมูล mongodb
+ตัวอย่างระบบจัดการเว็บไซต์ backend ของเว็บไซต์จองห้องพักโรงแรม พัฒนาด้วย node.js (โปรเจ็กนี้ทำ frontend แยกไว้ที่ [frontend repository](https://github.com/Geeleed/geeleed-hotel)) ใช้บริการ payment gateway ด้วย stripe และใช้ฐานข้อมูล mongodb
 
 การใช้งาน
 

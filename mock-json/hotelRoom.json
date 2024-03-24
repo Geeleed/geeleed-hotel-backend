@@ -1,0 +1,146 @@
+[
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องสแตนดาร์ด",
+        "imageSrc":"/image/room/olexandr-ignatov-w72a24brINI-unsplash.jpg",
+        "price":1500,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องซูพีเรีย",
+        "imageSrc":"/image/room/steven-ungermann-aRT5UCf2MYY-unsplash.jpg",
+        "price":2500,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องดีลักซ์",
+        "imageSrc":"/image/room/frames-for-your-heart-FqqiAvJejto-unsplash.jpg",
+        "price":3500,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องสวีท",
+        "imageSrc":"/image/room/adam-winger-VGs8z60yT2c-unsplash.jpg",
+        "price":4500,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องฮันนีมูน",
+        "imageSrc":"/image/room/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg",
+        "price":4800,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"sleeping",
+        "roomName":"ห้องจัดแต่งตามคำขอ",
+        "imageSrc":"/image/room/visualsofdana-T5pL6ciEn-I-unsplash.jpg",
+        "price":5000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"seminar",
+        "roomName":"ห้องโถง",
+        "imageSrc":"/image/seminar/omar-rodriguez-XYuNwlYtfLI-unsplash.jpg",
+        "price":5000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"seminar",
+        "roomName":"ห้องประชุม",
+        "imageSrc":"/image/seminar/chuttersnap-Q_KdjKxntH8-unsplash.jpg",
+        "price":5000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"seminar",
+        "roomName":"ห้องสัมมนา",
+        "imageSrc":"/image/seminar/asia-culturecenter-COWf-5ZtZ6w-unsplash.jpg",
+        "price":6000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"party",
+        "roomName":"ห้องจัดงานเลี้ยงขนาดเล็ก",
+        "imageSrc":"/image/canteen/hannah-busing-URVe89DA5Cw-unsplash.jpg",
+        "price":6000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"party",
+        "roomName":"ห้องจัดงานเลี้ยงขนาดใหญ่",
+        "imageSrc":"/image/canteen/ibrahim-boran-m8YjB0noWiY-unsplash.jpg",
+        "price":7000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"party",
+        "roomName":"ปาตี้",
+        "imageSrc":"/image/relax/christian-lambert-vmIWr0NnpCQ-unsplash.jpg",
+        "price":7000,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"canteen",
+        "roomName":"ห้องรับประทานอาหาร",
+        "imageSrc":"/image/canteen/louis-hansel-wVoP_Q2Bg_A-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"canteen",
+        "roomName":"คาร์เฟ่",
+        "imageSrc":"/image/canteen/nick-karvounis-YH7KYtYMET0-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"canteen",
+        "roomName":"บาร์เครื่องดื่ม",
+        "imageSrc":"/image/canteen/taylor-davidson-iwWJFIlnDm4-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"relax",
+        "roomName":"สระว่ายน้ำ",
+        "imageSrc":"/image/relax/cory-bjork-D1yT791Nf9A-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"relax",
+        "roomName":"ดาดฟ้า",
+        "imageSrc":"/image/relax/brands-people-en-u6xqnbsg-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    },
+    {
+        "roomType":"relax",
+        "roomName":"นั่งชิล",
+        "imageSrc":"/image/relax/datingscout-JTUmzXLoqHQ-unsplash.jpg",
+        "price":0,
+        "currency":"THB",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a nobis molestiae ipsa. Cum, debitis eligendi nesciunt vero enim molestiae."
+    }
+]

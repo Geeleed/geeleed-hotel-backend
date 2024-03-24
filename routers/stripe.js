@@ -90,11 +90,6 @@ router.post(
         });
       }
 
-      // const dataNewBooked = {
-      //   email,
-      //   memberId: String(memberId),
-      // };
-
       const data = {
         email,
         memberId,
@@ -102,13 +97,6 @@ router.post(
         session_id: session.id,
         status: session.status,
         order_id: orderId,
-        // guest: [
-        //   {
-        //     firstname: "kkk",
-        //     lastname: "ggg",
-        //     phoneNumber: "099999999",
-        //   },
-        // ],
         guestInfo,
         guestNote,
         bookedDate: markDate,

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Order = require("./../../models/Order")();
+router.use(require("../../config/cors"));
 router.delete("/deleteSessionByOrderId/:id", async (req, res) => {
   try {
     await Order.deleteOne({ order_id: req.params.id });

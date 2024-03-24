@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+router.use(require("../../config/cors"));
 
 const Image = require("./../../models/Image")();
 router.get("/loadImage", async (req, res) => {

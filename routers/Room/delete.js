@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+router.use(require("../../config/cors"));
 
 const Room = require("./../../models/Room")();
 router.delete("/deleteRoomCard/:id", async (req, res) => {

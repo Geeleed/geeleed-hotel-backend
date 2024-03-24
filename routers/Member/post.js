@@ -3,6 +3,7 @@ const router = express.Router();
 const bcrypt = require("bcrypt");
 const bodyParser = require("body-parser");
 const generateToken = require("./../../function/generateToken");
+router.use(require("../../config/cors"));
 
 const Member = require("./../../models/Member")();
 router.post("/signup", bodyParser.json(), async (req, res) => {

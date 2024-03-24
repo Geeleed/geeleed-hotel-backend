@@ -114,7 +114,7 @@ router.post(
       console.error("Error creating user:", error);
       res.status(400).json({
         error: "Error payment",
-        message: "วันที่ท่านจองเพิ่งถูกจองไป โปรดเลือกใหม่",
+        message: "เกิดข้อผิดพลาด",
         process: false,
       });
     }

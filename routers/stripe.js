@@ -103,7 +103,7 @@ router.post(
         price,
       };
 
-      const result = await Order.insertMany(data);
+      await Order.insertMany(data);
 
       res.json({
         message: "Checkout success.",
@@ -152,10 +152,7 @@ router.post(
         const data = {
           status: paymentSuccessData.status,
         };
-        const result = await Order.updateOne(
-          { session_id: sessionId },
-          { $set: data }
-        );
+        await Order.updateOne({ session_id: sessionId }, { $set: data });
         break;
       default:
         console.log(`Unhandled event type ${event.type}`);

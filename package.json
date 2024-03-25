@@ -1,6 +1,6 @@
 {
   "name": "geeleed-hotel-backend",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "backend process for geeleed hotel website",
   "main": "index.js",
   "scripts": {

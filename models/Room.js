@@ -18,20 +18,6 @@ const RoomSchema = new Schema({
   description: { type: String, default: "" },
   createAt: { type: Date },
   updateAt: { type: Date },
-  booked: [
-    {
-      email: { type: String },
-      memberId: { type: String },
-      guest: [
-        {
-          firstname: { type: String },
-          lastname: { type: String },
-          phoneNumber: { type: String },
-        },
-      ],
-      bookedDate: { type: [String] },
-    },
-  ],
   ready: { type: Boolean, default: true },
 });
 

@@ -53,6 +53,14 @@ stripe listen --forward-to localhost:8000/webhook
 
 เว็บไซต์ตัวอย่างของโปรเจ็กนี้ถูก deploy บน vercel และใช้ฐานข้อมูล mongodb atlas สามารถดู demo ได้ที่ [Geeleed Hotel](https://geeleed-hotel.vercel.app/)
 
+ใช้เลขบัตรสำหรับทดสอบระบบชำระเงินดังนี้
+
+- Email: อะไรก็ได้
+- Card information: 4111 1111 1111 1111
+- MM/YY: เป็นเดือนและปีอะไรก็ได้ (ปัจจุบันขึ้นไป)
+- CVC: เลขอะไรก็ได้
+- Cardholder name: อะไรก็ได้
+
 ## อื่น ๆ
 
 ติดต่อ surasak.kwork@gmail.com

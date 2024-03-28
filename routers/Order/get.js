@@ -39,15 +39,21 @@ router.get("/getOrderByEmail", async (req, res) => {
 });
 router.get("/loadOrderByRoom_id/:_id", async (req, res) => {
   try {
-    try {
-      const data = await Order.find({ room_id: req.params._id });
-      // console.log("loadOrderByRoom_id", data);
-      res.status(200).json(data);
-    } catch (error) {
-      console.error(error);
-      res.json(error);
-    }
+    const data = await Order.find({ room_id: req.params._id });
+    // console.log("loadOrderByRoom_id", data);
+    res.status(200).json(data);
   } catch (error) {
+    console.error(error);
+    res.json(error);
+  }
+});
+
+router.get("/loadAllOrder", async (req, res) => {
+  try {
+    const allOrder = await Order.find({});
+    res.json(allOrder);
+  } catch (error) {
+    console.log(error);
     res.json(error);
   }
 });

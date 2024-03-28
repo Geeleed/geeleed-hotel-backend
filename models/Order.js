@@ -16,6 +16,7 @@ const OrderSchema = new Schema({
     },
   ],
   guestNote: { type: String },
+  adminNote: { type: String },
   bookedDate: { type: [String] },
   price: { type: Number },
   createdAt: { type: Date },

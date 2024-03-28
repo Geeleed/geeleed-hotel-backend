@@ -29,5 +29,20 @@ router.delete("/clearExpireSession", async (req, res) => {
     res.json(e);
   }
 });
+router.delete("/order/:id", async (req, res) => {
+  const orderId = req.params.id;
+  try {
+    await Order.deleteOne({ order_id: orderId });
+    res.json({ message: "ลบข้อมูลเรียบร้อย" });
+  } catch (error) {
+    console.log("error", error);
+    res
+      .status(404)
+      .json({
+        error: error.errorMessage || "System error",
+        message: "เกิดข้อขัดข้อง",
+      });
+  }
+});
 
 module.exports = router;

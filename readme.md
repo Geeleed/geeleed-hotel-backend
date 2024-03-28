@@ -53,6 +53,10 @@ stripe listen --forward-to localhost:8000/webhook
 
 เว็บไซต์ตัวอย่างของโปรเจ็กนี้ถูก deploy บน vercel และใช้ฐานข้อมูล mongodb atlas สามารถดู demo ได้ที่ [Geeleed Hotel](https://geeleed-hotel.vercel.app/)
 
+- Admin demo account
+- Email: admin@admin
+- Password: 1234
+
 ใช้เลขบัตรสำหรับทดสอบระบบชำระเงินดังนี้
 
 - Email: อะไรก็ได้
